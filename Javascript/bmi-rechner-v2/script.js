@@ -20,12 +20,12 @@ let bmi = (gewicht / (groesse * groesse)).toFixed(2)
 // extreme Adipositas > 40,0
 
 // If Statement
-if (bmi < 18.5){
+if (bmi < 18.5) {
     kommentar = "Sie sind untergewichtig"
 }
-else if (bmi >= 18.5 && bmi <= 24.9){
+else if (bmi >= 18.5 && bmi <= 24.9) {
     kommentar = "Sieht gut aus, Normalgewicht"
-}else{
+} else {
     kommentar = "Ooof"
 }
 
