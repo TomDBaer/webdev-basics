@@ -2,7 +2,7 @@
 
 ### CSS
 
-- [Schachfeld](https://raw.githack.com/TomDBaer/projekte-basics-webdev/master/CSS/Schachfeld/index.html) // Sieht nur hübsch aus, macht aber nicht mehr
+- [Schachfeld](https://raw.githack.com/TomDBaer/projekte-basics-webdev/master/CSS/Schachfeld/index.html){:target="_blank"} // Sieht nur hübsch aus, macht aber nicht mehr
   
 
 ### JavaScript
