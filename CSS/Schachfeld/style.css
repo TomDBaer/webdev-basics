@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #232323;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    border: 20px solid #373333;
+    max-width: fit-content;
+}
+
+.schach-linie-a {
+    display: flex;
+}
+
+.schach-linie-a>span:nth-child(odd) {
+    width: 60px;
+    height: 60px;
+    background: #232323;
+}
+
+.schach-linie-a>span:nth-child(even) {
+    width: 60px;
+    height: 60px;
+    background: #ffffff;
+
+}
+
+span {
+    color: #3da032;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-size: 55px;
+}
+
+
+.schach-linie-b {
+    display: flex;
+}
+
+.schach-linie-b>span:nth-child(odd) {
+    width: 60px;
+    height: 60px;
+    background: #ffffff;
+}
+
+
+.schach-linie-b>span:nth-child(even) {
+    width: 60px;
+    height: 60px;
+    background: #232323;
+}
