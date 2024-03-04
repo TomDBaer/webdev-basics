@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js" defer></script>
     <title>BMI Rechner</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Merriweather", sans-serif;
+        }
+
+        .container{
+            margin: 0 20px;
+        }
+    </style>
+    <script src="script.js" defer></script>
 </head>
+
 <body>
-    <h1>Wunderbarer BMI Rechner</h1>
+    <div class="container">
+        <h1>Wunderbarer BMI Rechner</h1>
+
+        <div class="auswertung"></div>
+        <div class="kommentar"></div>
+    </div>
 </body>
+
 </html>
