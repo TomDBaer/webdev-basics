@@ -8,26 +8,46 @@
     <script src="script.js" defer></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
-        body{
+
+        body {
             font-family: "Comic Neue";
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            min-width: 320px;
+            max-width: 960px;
+            margin-inline: auto;
+        }
+
+        .text-box {
+            padding-bottom: 10px;
         }
     </style>
 </head>
 
 <body>
+    <div class="container">
+        <div class="text-box">
+            <h3>Eingabe</h3>
+            <p class="eingabe">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque iusto,
+                corporis, unde,
+                fugiat ut doloremque voluptatem maxime assumenda sequi ipsum perferendis accusantium atque sunt
+                repellat.
+                Nisi labore modi aspernatur! Nesciunt maiores dignissimos sapiente voluptas quibusdam?</p>
+        </div>
 
-    <div>
-        <p class="eingabe">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque iusto, corporis, unde,
-            fugiat ut doloremque voluptatem maxime assumenda sequi ipsum perferendis accusantium atque sunt repellat.
-            Nisi labore modi aspernatur! Nesciunt maiores dignissimos sapiente voluptas quibusdam?</p>
-    </div>
+        <div class="text-box">
+            <h3>Ausgabe</h3>
+            <p class="ausgabe"></p>
+        </div>
 
-    <div>
-        <span class="ausgabe"></span>
-    </div>
+        <div class="text-box">
+            <h3>Info</h3>
+            <span class="info"></span>
+        </div>
 
-    <div>
-        <span class="numba"></span>
     </div>
 
 </body>
