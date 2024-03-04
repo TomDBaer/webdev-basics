@@ -27,17 +27,17 @@ let betrag_gesamt = Number(prompt("Wie hoch ist der Betrag den Sie zu bezahlen h
 let prozent_trinkgeld = Number(prompt("Wie viel Prozent an Trinkgeld wollen Sie geben?"));
 let personen = Number(prompt("Wie viele Personen sind in Ihrer Gruppe?"));
 
-console.log(typeof betrag_gesamt);
-console.log(typeof personen);
+//console.log(typeof betrag_gesamt);
+//console.log(typeof personen);
 
 // Funktioniert so nicht. Ich kann auch einen char in eine int setzen. Stört dann bei der Berechnung
 // Am besten bei der Berechnung selber Überprüfen ob die Rechnung eine NaN ausgibt
-if (typeof betrag_gesamt != Number || typeof prozent_trinkgeld != "number" || typeof personen != "number"){
-    has_error = !has_error;
-    error = "Sie haben einen Wert eingegeben der keine Zahl ist\nBitte starten Sie die Rechnung neu";
-    alert(error)
-    throw new Error();
-}
+//if (typeof betrag_gesamt != "number" || typeof prozent_trinkgeld != "number" || typeof personen != "number"){
+//    has_error = !has_error;
+//    error = "Sie haben einen Wert eingegeben der keine Zahl ist\nBitte starten Sie die Rechnung neu";
+//    alert(error)
+//    throw new Error();
+//}
 
 betrag_pro_person = betrag_gesamt / personen;
 einzelbetrag_mit_trinkgeld = Math.round( betrag_pro_person * (prozent_trinkgeld / 100 + 1)).toFixed(2);
